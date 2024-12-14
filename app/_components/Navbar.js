@@ -9,12 +9,11 @@ function Navbar() {
   };
 
   const navItems = [
-    { label: "About", href: "/About" },
-    { label: "Careers", href: "#" },
-    { label: "History", href: "#" },
-    { label: "Services", href: "#" },
-    { label: "Projects", href: "#" },
-    { label: "Blog", href: "#" },
+    { label: "Home", href: "/" },
+    { label: "Features", href: "#" },
+    { label: "Gadgets", href: "#" },
+    { label: "About us", href: "/About" },
+    { label: "Contact", href: "#" },
   ];
 
   return (

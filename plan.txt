@@ -1,0 +1,20 @@
+no of pages = 9
+
+/ 
+
+/gadgets = Displays a list of gadgets available for rent.
+
+/gadgets/[id] = Displays detailed information about a specific gadget.
+
+/list-gadgets = Allows users to list their gadgets for rent.
+
+/about
+
+/contact
+
+/sign-in  
+
+/sign-up 
+
+/profile
+
