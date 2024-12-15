@@ -5,6 +5,7 @@ import { AnimatedTestimonialsDemo } from './_components/Testimonials';
 import ThreeDCardDemo from '/app/_components/card';
 import { FocusCardsDemo } from './_components/Gridimg';
 
+
 const Home = () => {
   return (
     <div>
@@ -16,15 +17,16 @@ const Home = () => {
       </section>
       <ThreeDCardDemo />
 
-      <section className="flex flex-col items-center justify-center my-8">
-        <h2 className="text-6xl font-bold">Trending Gadgets</h2>
+      <section className="bg-black flex flex-col items-center justify-center p-8 gap-8 ">
+        <h2 className="text-6xl text-white font-bold">Trending Gadgets</h2>
         <FocusCardsDemo />
       </section>
-
-      <section className="text-6xl font-bold flex items-center justify-center my-8">
-        <h2>Testimonials</h2>
+    <br/>
+      <section className="text-6xl font-bold flex items-center justify-center ">
+        <h2 className="hover:text-lime-500">Testimonials</h2>
       </section>
       <AnimatedTestimonialsDemo />
+
     </div>
   );
 }

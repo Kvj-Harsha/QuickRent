@@ -13,12 +13,10 @@ export default function Home() {
         rel="stylesheet"
       />
 
-      <div className="container py-24 relative">
+      <div className="container py-20 relative">
        
         <div className="flex flex-col items-center justify-center gap-4 text-center">
-          <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-            🌿 Fresh Piks 2k25!
-          </div>
+        
           <h1 className="text-6xl md:text-6xl  font-medium mt-6 mx-auto">
             Find the Perfect Rent <br /> in a Few Clicks!
           </h1>
@@ -26,6 +24,10 @@ export default function Home() {
             QuickRent helps you find your perfect rental in minutes. Fast, easy,
             and hassle-free – your next home is just a few clicks away!
           </p>
+          <div className="flex items-center justify-center gap-4 mt-8">
+            <Button variant="primary" ><a href="">Let's Rent</a></Button>
+
+            </div>
           <div className="p-4  w-full">
             <form className="flex items-center justify-center border border-white/25 rounded-full p-2 mt-8 max-w-lg w-full mx-auto">
               <input
