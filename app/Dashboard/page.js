@@ -5,8 +5,8 @@ import Hero2 from '../_components/Hero2'
 function page() {
   return (
     <div>
-      <Navbar/>
-      <Hero2/>
+      <Navbar />
+      <Hero2 />
     </div>
   )
 }
