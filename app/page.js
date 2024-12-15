@@ -13,7 +13,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       
-      <section className="text-6xl font-bold flex items-center justify-center my-8">
+      <section id="features" className="text-6xl font-bold flex items-center justify-center my-8">
         <h2>Key Features</h2>
       </section>
       <ThreeDCardDemo />
@@ -38,7 +38,9 @@ const Home = () => {
         <h2 className="hover:text-lime-500">Testimonials</h2>
       </section>
       <AnimatedTestimonialsDemo />
+      <div id="Contact">
       <Contact/>
+        </div>
     </div>
   );
 }
