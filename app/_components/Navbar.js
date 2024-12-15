@@ -5,7 +5,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Features", href: "#features" },
   { label: "Gadgets", href: "#integrations" },
-  { label: "Contact Us", href: "#faqs" },
+  { label: "Contact ", href: "#faqs" },
 ];
 
 function Navbar() {

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './_components/Navbar';
 import Hero from './_components/Hero';
 import { AnimatedTestimonialsDemo } from './_components/Testimonials';
-import ThreeDCardDemo from './_components/Card';
+import ThreeDCardDemo from '/app/_components/card';
 import { FocusCardsDemo } from './_components/Gridimg';
 
 const Home = () => {
