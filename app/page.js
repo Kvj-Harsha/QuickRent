@@ -5,6 +5,7 @@ import { AnimatedTestimonialsDemo } from './_components/Testimonials';
 import ThreeDCardDemo from '/app/_components/card';
 import { FocusCardsDemo } from './_components/Gridimg';
 import Plans from '/app/_components/Plans';
+import Contact from '/app/_components/Contact';
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
         <h2 className="hover:text-lime-500">Testimonials</h2>
       </section>
       <AnimatedTestimonialsDemo />
-
+      <Contact/>
     </div>
   );
 }
