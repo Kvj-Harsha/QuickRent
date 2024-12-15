@@ -10,6 +10,9 @@ const buttonClasses = cva(
         primary: "bg-lime-400 text-neutral-950 border-lime-400",
         secondary: "bg-black text-white border-white/55",
       },
+      size: {
+        small: 'h-10',
+      }
     },
   }
 );
@@ -18,13 +21,14 @@ const buttonClasses = cva(
 export default function Button(
   props: {
     variant: "primary" | "secondary";
+    size?: "small";
   } & ButtonHTMLAttributes<HTMLButtonElement>
 ) {
-  const { variant, className, ...otherProps } = props;
+  const { variant, className, size,...otherProps } = props;
 
   return (
     <button 
-      className={buttonClasses({ variant, className })} 
+      className={buttonClasses({ variant, size,className })} 
       {...otherProps} 
     />
   );

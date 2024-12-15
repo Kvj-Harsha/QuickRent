@@ -1,44 +1,34 @@
-import React from 'react'
+import Button from "./Button";
 
-function Hero() {
+export default function Home() {
   return (
-    <div>
-      <section className="bg-gray-900 text-white">
-  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-    <div className="mx-auto max-w-3xl text-center">
-      <h1
-        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-      >
-        QuickRent
-
-        <span className="sm:block"> Online Renting Platform! </span>
-      </h1>
-
-      <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-        numquam ea!
-      </p>
-
-      <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <a
-          className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-          href="/Dashboard"
-        >
-          Get Started
-        </a>
-
-        <a
-          className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-          href="#"
-        >
-          Learn More
-        </a>
+    <section>
+      <div className="container py-24">
+        <div className="flex flex-col items-center justify-center gap-4">
+          <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
+            🌿 Fresh Piks 2k25!
+          </div>
+        </div>
+        <h1 className="text-6xl font-medium text-center p-3 mt-6">
+          Find Your Perfect Space in Just a Few Clicks!
+        </h1>
+        <p className="text-center text-xl text-white/50 mt-8 p-3">
+          QuickRent helps you find your perfect rental in minutes. Fast, easy,
+          and hassle-free – your next home is just a few clicks away!
+        </p>
+        <div className="p-4">
+        <form className="flex border border-white/25 rounded-full p-2 mt-8">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="bg-transparent px-4 flex-grow"
+          />
+          <Button variant="primary" type="submit" size="small" className="whitespace-nowrap">
+            Sign Up
+          </Button>
+        </form>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-    </div>
-  )
+    </section>
+  );
 }
-
-export default Hero
