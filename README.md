@@ -80,11 +80,20 @@ Here are some screenshots of the app:
 - **Homepage**:  
   ![Homepage Screenshot](./screenshots/1.png)
 
-- **Gadgets Page (After Authentication)**:  
+- **Features**:  
   ![Gadgets Page](./screenshots/2.png)
 
-- **Login/Signup Page**:  
-  ![Login Page](./screenshots/3.png)
+- **Trending Gadgets*:  
+  ![tg](./screenshots/3.png)
+
+- **Plans**:  
+  ![Plans](./screenshots/4.png)
+
+- **Testimonials**:  
+  ![Testimonials](./screenshots/5.png)
+
+- **Gadgets**:  
+  ![Gadgets](./screenshots/6.png)
 
 ## Deployment 🌍
 
