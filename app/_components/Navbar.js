@@ -71,7 +71,7 @@ function Navbar() {
 
             {/* Buttons */}
             <Button variant="secondary" className="hidden md:block"><a href="/Dashboard">Log In</a></Button>
-            <Button variant="primary" className="hidden md:block">Sign Up</Button>
+            <Button variant="primary" className="hidden md:block" ><a href="/sign-up">Sign Up</a></Button>
           </div>
         </div>
       </div>
