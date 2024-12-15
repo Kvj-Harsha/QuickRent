@@ -1,5 +1,4 @@
 import Button from "./Button";
-import Image from "next/image";
 
 
 export default function Home() {
@@ -25,7 +24,7 @@ export default function Home() {
             and hassle-free – your next home is just a few clicks away!
           </p>
           <div className="flex items-center justify-center gap-4 mt-8">
-            <Button variant="primary" ><a href="">Let's Rent</a></Button>
+            <Button variant="primary" ><a href="/Gadgets">Let's Rent</a></Button>
 
             </div>
           <div className="p-4  w-full">

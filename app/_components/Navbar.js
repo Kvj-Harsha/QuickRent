@@ -72,7 +72,7 @@ function Navbar() {
             </svg>
 
             {/* Buttons */}
-            <Button variant="secondary" className="hidden md:block"><a href="/Dashboard">Log In</a></Button>
+            <Button variant="secondary" className="hidden md:block"><a href="/Gadgets">Log In</a></Button>
             <Button variant="primary" className="hidden md:block"><a href="/sign-up">Sign Up</a></Button>
           </div>
         </div>
