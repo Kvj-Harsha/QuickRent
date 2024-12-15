@@ -6,4 +6,21 @@
 body {
   background-color: black;
   color: white;
+  font-family: 'Lexend', sans-serif;
+}
+
+.lexend-100 {
+  font-weight: 100;
+}
+
+.lexend-400 {
+  font-weight: 400;
+}
+
+.lexend-700 {
+  font-weight: 700;
+}
+
+.lexend-900 {
+  font-weight: 900;
 }

@@ -3,13 +3,21 @@ import Button from "./Button";
 export default function Home() {
   return (
     <section>
+      {/* Google Fonts Preconnect & Font Link */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet"
+      />
+
       <div className="container py-24">
         <div className="flex flex-col items-center justify-center gap-4 text-center">
           <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
             🌿 Fresh Piks 2k25!
           </div>
-          <h1 className="text-4xl sm:text-6xl md:text-7xl font-medium mt-6 mx-auto">
-            Find the Perfect Rent in a Few Clicks!
+          <h1 className="text-5xl sm:text-6xl md:text-7xl font-medium mt-6 mx-auto">
+            Find the Perfect Rent <br /> in a Few Clicks!
           </h1>
           <p className="text-lg sm:text-xl text-white/50 mt-6 p-3 max-w-2xl mx-auto">
             QuickRent helps you find your perfect rental in minutes. Fast, easy,
@@ -32,3 +40,4 @@ export default function Home() {
     </section>
   );
 }
+
