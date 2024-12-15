@@ -9,7 +9,7 @@ export default function Home() {
             🌿 Fresh Piks 2k25!
           </div>
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-medium mt-6 mx-auto">
-            Rent in a Few Clicks!
+            Find the Perfect Rent in a Few Clicks!
           </h1>
           <p className="text-lg sm:text-xl text-white/50 mt-6 p-3 max-w-2xl mx-auto">
             QuickRent helps you find your perfect rental in minutes. Fast, easy,
