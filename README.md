@@ -95,6 +95,9 @@ Here are some screenshots of the app:
 - **Gadgets**:  
   ![Gadgets](./screenshots/6.png)
 
+- **Contact**:
+  ![Contact](./screenshots/7.png)
+
 ## Deployment 🌍
 
 You can access the deployed version of the website here:  
