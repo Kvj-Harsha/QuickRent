@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import logoImage from '@/public/images/logo.svg';
 import Button from './Button';
 
 const navLinks = [
