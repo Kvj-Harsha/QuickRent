@@ -4,8 +4,8 @@ import Button from './Button';
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Features", href: "#features" },
-  { label: "Integrations", href: "#integrations" },
-  { label: "FAQs", href: "#faqs" },
+  { label: "Gadgets", href: "#integrations" },
+  { label: "Contact Us", href: "#faqs" },
 ];
 
 function Navbar() {
