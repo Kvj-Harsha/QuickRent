@@ -78,13 +78,13 @@ Key Technologies:
 Here are some screenshots of the app:
 
 - **Homepage**:  
-  ![Homepage Screenshot](./screenshots/homepage.png)
+  ![Homepage Screenshot](./screenshots/1.png)
 
 - **Gadgets Page (After Authentication)**:  
-  ![Gadgets Page](./screenshots/gadgets.png)
+  ![Gadgets Page](./screenshots/2.png)
 
 - **Login/Signup Page**:  
-  ![Login Page](./screenshots/login.png)
+  ![Login Page](./screenshots/3.png)
 
 ## Deployment 🌍
 
