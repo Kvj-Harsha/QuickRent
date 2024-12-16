@@ -98,6 +98,12 @@ Here are some screenshots of the app:
 - **Contact**:
   ![Contact](./screenshots/7.png)
 
+- **About**:
+  ![About](./screenshots/9.png)
+
+- **Contributor**:
+  ![Contributor](./screenshots/8.png)
+
 ## Deployment 🌍
 
 You can access the deployed version of the website here:  
